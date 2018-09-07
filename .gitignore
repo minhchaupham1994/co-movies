@@ -1,0 +1,10 @@
+/.gradle
+/.idea
+/build
+/gradle
+/app/*
+!/app/src
+CoMovies.iml
+co-movies.iml
+gradlew
+gradlew.bat
