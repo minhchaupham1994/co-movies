@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#fff"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp"
+    android:paddingLeft="1dp">
+    <ImageView
+        android:id="@+id/Thumbnail"
+        android:layout_width="144dp"
+        android:layout_height="81dp"
+        android:padding="1dp"   />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contain"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title">
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/resolution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:textColor="#000"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
